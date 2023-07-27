@@ -1,0 +1,11 @@
+.vscode
+bin
+logs
+media
+__pycache__
+migrations
+run
+static
+.DJANGO_SECRET_KEY
+.env
+db.sqlite3
