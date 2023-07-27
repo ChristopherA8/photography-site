@@ -1,5 +1,4 @@
 # Photography Site
-[https://christopher.jp.net/photography](https://christopher.jp.net/photography)
 
 
 For me to practice learning django
