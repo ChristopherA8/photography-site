@@ -3,4 +3,4 @@
 
 For me to practice learning django
 
-![jhkRUjp](https://github.com/ChristopherA8/photography-site/assets/32487758/7463add1-d485-47f0-81b7-966eb97b8f5f)
+![chrome_KL20sHrbZg](https://github.com/ChristopherA8/photography-site/assets/32487758/878e2def-896a-4e9f-af11-41a33c2dcaa7)
