@@ -18,10 +18,13 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
+from django.contrib.auth import views as auth_views
+from photography.forms import CustomAuthForm
 
 urlpatterns = [
     path('photography/admin/', admin.site.urls),
     path('photography/', include('portfolio.urls')),
+    path('photography/accounts/login/', auth_views.LoginView.as_view(template_name='registration/login.html', authentication_form=CustomAuthForm), name='login'),
     path("photography/accounts/", include("django.contrib.auth.urls")),
 ]
 
